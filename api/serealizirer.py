@@ -7,4 +7,4 @@ class messdatenSerializer(serializers.ModelSerializer):
     """
     class Meta:
         model = messdaten
-        fields = ("offenname", "O2", "CO2","NO","NO2","SO2","NOX","ETA","Lamda","Losses","Air_temperatur","Gas_temp","Airpressure")
+        fields = ("offenname", "O2","CO", "CO2","NO","NO2","SO2","NOX","ETA","Lamda","Losses","Air_temperatur","Gas_temp","Airpressure")
